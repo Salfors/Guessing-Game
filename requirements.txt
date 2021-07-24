@@ -1,0 +1,7 @@
+colorama>=0.4.4
+py-os>=1.0.0
+python-time>=0.3.0
+random2>=1.0.1
+python-time>=0.3.0 
+
+
