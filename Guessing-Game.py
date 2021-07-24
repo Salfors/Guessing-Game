@@ -1,5 +1,6 @@
 #import modules
 import os        # for interact with the Operating system 
+import time
 import random    #To shuffle guess numbers within a random pile
 import colorama  #To produce colored terminal text 
 from colorama import Fore, Back, Style
@@ -37,6 +38,7 @@ try:
             
         clean +=1            # To make clean screen after many trying
         if clean == int(4):  # To clean screen after 4 trying
+            time.sleep(1)
             os.system('cls' if os.name == 'nt' else 'clear')
             clean -=4
 except KeyboardInterrupt:    #To exit from code usnig Ctrl+Shift+C
