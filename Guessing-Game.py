@@ -39,7 +39,7 @@ try:
             
         clean +=1            # To make clean screen after many trying
         if clean == int(4):  # To clean screen after 4 trying
-            time.sleep(0.5)
+            time.sleep(0.3)
             os.system('cls' if os.name == 'nt' else 'clear')
             clean -=4
 except KeyboardInterrupt:    #To exit from code usnig Ctrl+Shift+C
