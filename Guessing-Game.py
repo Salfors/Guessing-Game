@@ -13,7 +13,7 @@ print('\n[+]__Welcome to the Number Guessing game ,For exit Press \"Ctrl+Shift+C
 print(Fore.GREEN+'[+] GOOD LUCK [+]\n'+Fore.WHITE)                                         # To print("[+] GOOD LUCK [+]") with colors
 try:
     while True:                                      #For iteration loop for inputs
-        Number = 3#random.randint(1, 10)               #For exit by random number
+        Number = random.randint(1, 10)               #For exit by random number
         guessing = input('Guess a number between 1 & 10: ')  #For check  if inputs between 1 & 10
         if guessing != Empty:                                   #If inputs not empty
             try:                  #to predict that the input is int
